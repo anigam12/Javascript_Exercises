@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Javascript Assignment1</title>
+</head>
+<body>
+	<script src="fibonacci.js"></script>
+	<script src="factorial.js"></script>
+	<script src="palindrome.js"></script>
+	<script src="prime.js"></script>
+	<script src="calculator.js"></script>
+	<section id="Fibonacci">
+		<h2>Fibonacci Series</h2>		
+		Enter the Fibonacci Series limit:<input id="fibo_limit" type="number" name="inputBox" value=""><button type="button" onclick="fibonacci(this)">Generate Fibonacci Series</button><br><br>
+		<p>The answer is:</p>
+		<p id="fibonacci_answer"></p>
+		<br>
+		<hr>
+		<h2>Factorial of a Number</h2>
+		Enter the number for which Factorial is to be calculated:<input id="num" type="number" name="inputBox" value=""><button type="button" onclick="factorial(this)">Generate Factorial</button><br><br>
+		<p>The answer is:</p>
+		<p id="factorial_answer"></p>
+		<br>
+		<hr>
+		<h2>Palindrome</h2>
+		Enter the string to be checked:<input id="pal_num" type="number" name="inputBox" value=""><button type="button" onclick="palindrome()">Generate Palindrome</button><br><br>
+		<p>The string is:</p>
+		<p id="palindrome_answer"></p>
+		<br>
+		<hr>
+		<h2>Prime Number Series</h2>
+		Enter the limit:<input id="prime_limit" type="number" name="inputBox" value=""><button type="button" onclick="prime_num()">Generate Prime Number Series</button><br><br>
+		<p>The prime number series is:</p>
+		<p id="prime_answer"></p>
+		<br>
+		<hr>
+		<h2>Calculator</h2>
+		Enter operand1:<input id="operand1" type="number" name="inputBox" value=""><br><br>
+		Enter operand2:<input id="operand2" type="number" name="inputBox" value=""><br><br>
+		Choose operator:<select id="choose_operator">
+						  <option value="add">Add</option>
+						  <option value="sub">Subtract</option>
+						  <option value="multiply">Multiply</option>
+						  <option value="divide">Divide</option>
+						</select><br><br>
+		<button type="button" onclick="calculator()">Calculate</button><br><br>
+		<p>The answer is:</p>
+		<p id="calculator_answer"></p>
+		<br>
+		<hr>
+	</section>
+	
+</body>
+</html>
+
